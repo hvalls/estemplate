@@ -16,7 +16,7 @@ Call the endpoint:
 
 ```
 POST /templates/render
-{ "templateUrl": "{link_to_your_template_file}.odt", "data": { "name": "John", "lastName": "Doe" } }
+{ "templateUrl": "url_to_your_template_file.odt", "data": { "name": "John", "lastName": "Doe" } }
 ```
 
 Response contains your .odt template rendered with data provided. 
